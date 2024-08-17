@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #151937;
+}
+
+.button-gardient {
+  background-image: linear-gradient(white, pink, red);
+  border-radius: 50px;
+  font-size: 20px;
+
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+}
+
+.list_footer a{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
